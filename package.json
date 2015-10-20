@@ -1,0 +1,30 @@
+{
+  "name": "ang",
+  "version": "0.1.0",
+  "description": "spm2 config transport spm3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter spec test/* --check-leaks"
+  },
+  "keywords": [
+    "spm",
+    "config",
+    "transport"
+  ],
+  "bin": "cli.js",
+  "author": "nightink",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 2.0.0"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "debug": "~2.2.0",
+    "wspider": "~0.0.5"
+  },
+  "devDependencies": {
+    "coffee": "~1.2.0",
+    "mocha": "~2.3.3",
+    "should": "~6.0.3"
+  }
+}
